@@ -8,7 +8,7 @@ This project demonstrates an ETL pipeline using Apache Airflow. The pipeline:
 
 ## Project Structure
 ```
-airflow_project/
+airflow-census-pipeline/
 ├── dags/                    # DAGs scripts
 │   ├── census_pipeline.py   # Main DAG script
 ├── data/                    # Data files
