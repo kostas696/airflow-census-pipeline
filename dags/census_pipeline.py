@@ -60,7 +60,7 @@ def load_data_to_db(**kwargs):
     import pandas as pd
 
     # Database connection
-    engine = create_engine('postgresql+psycopg2://airflow_user:Arcturus904#@localhost/airflow_db')
+    engine = create_engine('postgresql+psycopg2://airflow_user:*************@localhost/airflow_db')
 
     try:
         # Load data from CSV
