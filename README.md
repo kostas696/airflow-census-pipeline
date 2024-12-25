@@ -7,7 +7,7 @@ This project demonstrates an ETL pipeline using Apache Airflow. The pipeline:
 3. Loads the processed data into a PostgreSQL database.
 
 ## Project Structure
-
+```
 airflow_project/
 ├── dags/                    # DAGs scripts
 │   ├── census_pipeline.py   # Main DAG script
@@ -18,7 +18,7 @@ airflow_project/
 ├── airflow.cfg              # Airflow configuration
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
-
+```
 
 ## Prerequisites
 - **OS**: Ubuntu (WSL)
